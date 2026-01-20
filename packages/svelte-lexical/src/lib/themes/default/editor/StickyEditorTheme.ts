@@ -6,7 +6,7 @@
  *
  */
 
-import type {EditorThemeClasses} from 'svelte-lexical';
+import type {EditorThemeClasses} from 'lexical';
 
 import './StickyEditorTheme.css';
 
