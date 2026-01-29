@@ -34,7 +34,7 @@ test('Headings - stays as a heading when you backspace at the start of a heading
     page,
     html`
       <h1
-        class="PlaygroundEditorTheme__h1 PlaygroundEditorTheme__ltr"
+        class="PlaygroundEditorTheme__h1"
         dir="ltr">
         <span data-lexical-text="true">Welcome to the playground</span>
       </h1>
@@ -49,7 +49,7 @@ test('Headings - stays as a heading when you backspace at the start of a heading
     page,
     html`
       <h1
-        class="PlaygroundEditorTheme__h1 PlaygroundEditorTheme__ltr"
+        class="PlaygroundEditorTheme__h1"
         dir="ltr">
         <span data-lexical-text="true">Welcome to the playground</span>
       </h1>

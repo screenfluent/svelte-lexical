@@ -49,7 +49,7 @@ test.describe('Mentions', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">@Luke</span>
         </p>
@@ -126,7 +126,7 @@ test.describe('Mentions', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">@Luke</span>
         </p>
@@ -223,7 +223,7 @@ test.describe('Mentions', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">@Luke</span>
         </p>
@@ -301,7 +301,7 @@ test.describe('Mentions', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">@Luke</span>
         </p>
@@ -379,7 +379,7 @@ test.describe('Mentions', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">@Luke</span>
         </p>
@@ -456,7 +456,7 @@ test.describe('Mentions', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">abc def</span>
         </p>
@@ -480,7 +480,7 @@ test.describe('Mentions', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">abc @Luke def</span>
         </p>
@@ -492,7 +492,7 @@ test.describe('Mentions', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">abc</span>
           <span
@@ -518,7 +518,7 @@ test.describe('Mentions', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">abc</span>
           <span
@@ -658,7 +658,7 @@ test.describe('Mentions', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">Skywalker</span>
             <span
@@ -692,7 +692,7 @@ test.describe('Mentions', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">Skywalker</span>
             <span
@@ -807,7 +807,7 @@ test.describe('Mentions', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">Skywalker</span>
             <span
@@ -833,7 +833,7 @@ test.describe('Mentions', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">Skywalker</span>
             <span
@@ -908,7 +908,7 @@ test.describe('Mentions', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span
             class="mention"
@@ -954,7 +954,7 @@ test.describe('Mentions', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">bar</span>
         </p>
@@ -1001,7 +1001,7 @@ test.describe('Mentions', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span
             class="mention"

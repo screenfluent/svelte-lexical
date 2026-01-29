@@ -132,7 +132,7 @@ test.describe.parallel('Markdown', () => {
       expectation:
         '<ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem"><br></li></ul>',
       importExpectation:
-        '<ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr" value="1"><span data-lexical-text="true">hello</span></li></ul>',
+        '<ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1"><span data-lexical-text="true">hello</span></li></ul>',
       isBlockTest: true,
       markdownImport: '- hello',
       markdownText: '- ',
@@ -142,7 +142,7 @@ test.describe.parallel('Markdown', () => {
       expectation:
         '<ol start="321" class="PlaygroundEditorTheme__ol1"><li value="321" class="PlaygroundEditorTheme__listItem"><br></li></ol>',
       importExpectation:
-        '<ol class="PlaygroundEditorTheme__ol1" start="321"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr" value="321"><span data-lexical-text="true">hello</span></li></ol>',
+        '<ol class="PlaygroundEditorTheme__ol1" start="321"><li class="PlaygroundEditorTheme__listItem" dir="ltr" value="321"><span data-lexical-text="true">hello</span></li></ol>',
       isBlockTest: true,
       markdownImport: '', // '321. hello', Need to merge w/ Maksims changes first to get correct start number.
       markdownText: '321. ',
@@ -168,7 +168,7 @@ test.describe.parallel('Markdown', () => {
     },
     {
       expectation:
-        '<p class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr" dir="ltr"><strong class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic PlaygroundEditorTheme__textStrikethrough" data-lexical-text="true">test</strong><span data-lexical-text="true"></span></p>',
+        '<p class="PlaygroundEditorTheme__paragraph" dir="ltr"><strong class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic PlaygroundEditorTheme__textStrikethrough" data-lexical-text="true">test</strong><span data-lexical-text="true"></span></p>',
       importExpectation: '',
       isBlockTest: true,
       markdownImport: '',
@@ -177,7 +177,7 @@ test.describe.parallel('Markdown', () => {
     },
     {
       expectation:
-        '<p class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr" dir="ltr"><em class="PlaygroundEditorTheme__textItalic PlaygroundEditorTheme__textStrikethrough" data-lexical-text="true">test</em><span data-lexical-text="true"></span></p>',
+        '<p class="PlaygroundEditorTheme__paragraph" dir="ltr"><em class="PlaygroundEditorTheme__textItalic PlaygroundEditorTheme__textStrikethrough" data-lexical-text="true">test</em><span data-lexical-text="true"></span></p>',
       importExpectation: '',
       isBlockTest: true,
       markdownImport: '',
@@ -186,7 +186,7 @@ test.describe.parallel('Markdown', () => {
     },
     {
       expectation:
-        '<p class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr" dir="ltr"><strong class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textStrikethrough" data-lexical-text="true">test</strong><span data-lexical-text="true"></span></p>',
+        '<p class="PlaygroundEditorTheme__paragraph" dir="ltr"><strong class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textStrikethrough" data-lexical-text="true">test</strong><span data-lexical-text="true"></span></p>',
       importExpectation: '',
       isBlockTest: true,
       markdownImport: '',
@@ -196,9 +196,9 @@ test.describe.parallel('Markdown', () => {
 
     {
       expectation:
-        '<p class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr" dir="ltr"><strong class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic" data-lexical-text="true">test</strong><span data-lexical-text="true"></span></p>',
+        '<p class="PlaygroundEditorTheme__paragraph" dir="ltr"><strong class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic" data-lexical-text="true">test</strong><span data-lexical-text="true"></span></p>',
       importExpectation:
-        '<p class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr" dir="ltr"> <strong class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic" data-lexical-text="true">test</strong></p>',
+        '<p class="PlaygroundEditorTheme__paragraph" dir="ltr"> <strong class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic" data-lexical-text="true">test</strong></p>',
       isBlockTest: true,
       markdownImport: '_**test**_',
       markdownText: '_**test**_ ',
@@ -516,7 +516,7 @@ test.describe.parallel('Markdown', () => {
     {
       html: html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">hello</span>
           <em
@@ -532,7 +532,7 @@ test.describe.parallel('Markdown', () => {
     {
       html: html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">hello</span>
           <strong
@@ -548,7 +548,7 @@ test.describe.parallel('Markdown', () => {
     {
       html: html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">hello</span>
           <strong
@@ -564,7 +564,7 @@ test.describe.parallel('Markdown', () => {
     {
       html: html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">hello</span>
           <strong
@@ -580,11 +580,11 @@ test.describe.parallel('Markdown', () => {
     {
       html: html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">hello</span>
           <a
-            class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__link"
             dir="ltr"
             href="https://www.test.com">
             <span data-lexical-text="true">world</span>
@@ -597,7 +597,7 @@ test.describe.parallel('Markdown', () => {
     {
       html: html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">10:20:30😄</span>
         </p>
@@ -610,7 +610,7 @@ test.describe.parallel('Markdown', () => {
     {
       html: html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic PlaygroundEditorTheme__textStrikethrough"
@@ -625,7 +625,7 @@ test.describe.parallel('Markdown', () => {
     {
       html: html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <em
             class="PlaygroundEditorTheme__textItalic PlaygroundEditorTheme__textStrikethrough"
@@ -640,7 +640,7 @@ test.describe.parallel('Markdown', () => {
     {
       html: html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textStrikethrough"
@@ -655,7 +655,7 @@ test.describe.parallel('Markdown', () => {
     {
       html: html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic"
@@ -726,7 +726,7 @@ test.describe.parallel('Markdown', () => {
 
     const BOLD_ITALIC_STRIKETHROUGH = html`
       <p
-        class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+        class="PlaygroundEditorTheme__paragraph"
         dir="ltr">
         <strong
           class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic PlaygroundEditorTheme__textStrikethrough"
@@ -737,7 +737,7 @@ test.describe.parallel('Markdown', () => {
     `;
     const BOLD_ITALIC = html`
       <p
-        class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+        class="PlaygroundEditorTheme__paragraph"
         dir="ltr">
         <span data-lexical-text="true">~~</span>
         <strong
@@ -750,7 +750,7 @@ test.describe.parallel('Markdown', () => {
     `;
     const BOLD = html`
       <p
-        class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+        class="PlaygroundEditorTheme__paragraph"
         dir="ltr">
         <span data-lexical-text="true">~~_</span>
         <strong
@@ -763,7 +763,7 @@ test.describe.parallel('Markdown', () => {
     `;
     const PLAIN = html`
       <p
-        class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+        class="PlaygroundEditorTheme__paragraph"
         dir="ltr">
         <span data-lexical-text="true">~~_**hello world**</span>
       </p>
@@ -809,7 +809,7 @@ test.describe.parallel('Markdown', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textUnderline"
@@ -887,7 +887,7 @@ test.describe.parallel('Markdown', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">he_llo_ world</span>
         </p>
@@ -902,7 +902,7 @@ test.describe.parallel('Markdown', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">_hello wo_rld</span>
         </p>
@@ -922,7 +922,7 @@ test.describe.parallel('Markdown', () => {
       page,
       html`
         <code
-          class="PlaygroundEditorTheme__code PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__code"
           dir="ltr"
           spellcheck="false"
           data-gutter="12"
@@ -993,16 +993,16 @@ test.describe.parallel('Markdown', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <a
-              class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__link"
               dir="ltr"
               href="https://lexical.dev">
               <span data-lexical-text="true">link</span>
             </a>
             <a
-              class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__link"
               dir="ltr"
               href="https://lexical.dev">
               <span data-lexical-text="true">link</span>
@@ -1061,7 +1061,7 @@ test.describe.parallel('Markdown', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <code spellcheck="false" data-lexical-text="true">
             <span class="PlaygroundEditorTheme__textCode">void*</span>
@@ -1084,11 +1084,11 @@ test.describe.parallel('Markdown', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <a
-            class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__link"
             dir="ltr"
             href="https://lexical.dev">
             <span data-lexical-text="true">link</span>
@@ -1127,11 +1127,11 @@ It ~~___works [with links](https://lexical.io) too___~~
 Done`;
 
 const TYPED_MARKDOWN_HTML = html`
-  <h1 class="PlaygroundEditorTheme__h1 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h1 class="PlaygroundEditorTheme__h1" dir="ltr">
     <span data-lexical-text="true">Markdown Shortcuts</span>
   </h1>
   <p
-    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__paragraph"
     dir="ltr">
     <span data-lexical-text="true">This is</span>
     <em class="PlaygroundEditorTheme__textItalic" data-lexical-text="true">
@@ -1158,7 +1158,7 @@ const TYPED_MARKDOWN_HTML = html`
     <span data-lexical-text="true">text</span>
   </p>
   <p
-    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__paragraph"
     dir="ltr">
     <span data-lexical-text="true">This is</span>
     <strong
@@ -1174,7 +1174,7 @@ const TYPED_MARKDOWN_HTML = html`
     </strong>
   </p>
   <p
-    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__paragraph"
     dir="ltr">
     <span data-lexical-text="true">It</span>
     <strong
@@ -1183,7 +1183,7 @@ const TYPED_MARKDOWN_HTML = html`
       works
     </strong>
     <a
-      class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+      class="PlaygroundEditorTheme__link"
       dir="ltr"
       href="https://lexical.io">
       <strong
@@ -1199,7 +1199,7 @@ const TYPED_MARKDOWN_HTML = html`
     </strong>
   </p>
   <p
-    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__paragraph"
     dir="ltr">
     <em class="PlaygroundEditorTheme__textItalic" data-lexical-text="true">
       Nested
@@ -1213,14 +1213,14 @@ const TYPED_MARKDOWN_HTML = html`
       are handled too
     </em>
   </p>
-  <h1 class="PlaygroundEditorTheme__h1 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h1 class="PlaygroundEditorTheme__h1" dir="ltr">
     <span data-lexical-text="true">Title</span>
   </h1>
-  <h2 class="PlaygroundEditorTheme__h2 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h2 class="PlaygroundEditorTheme__h2" dir="ltr">
     <span data-lexical-text="true">Subtitle</span>
   </h2>
   <blockquote
-    class="PlaygroundEditorTheme__quote PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__quote"
     dir="ltr">
     <span data-lexical-text="true">Quote</span>
   </blockquote>
@@ -1230,7 +1230,7 @@ const TYPED_MARKDOWN_HTML = html`
     data-lexical-decorator="true" />
   <ul class="PlaygroundEditorTheme__ul">
     <li
-      class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+      class="PlaygroundEditorTheme__listItem"
       dir="ltr"
       value="1">
       <span data-lexical-text="true">List here</span>
@@ -1240,7 +1240,7 @@ const TYPED_MARKDOWN_HTML = html`
       value="2">
       <ul class="PlaygroundEditorTheme__ul">
         <li
-          class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__listItem"
           dir="ltr"
           value="1">
           <span data-lexical-text="true">Nested one</span>
@@ -1249,7 +1249,7 @@ const TYPED_MARKDOWN_HTML = html`
     </li>
   </ul>
   <code
-    class="PlaygroundEditorTheme__code PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__code"
     dir="ltr"
     spellcheck="false"
     data-gutter="1"
@@ -1258,7 +1258,7 @@ const TYPED_MARKDOWN_HTML = html`
     <span data-lexical-text="true">Code block</span>
   </code>
   <p
-    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__paragraph"
     dir="ltr">
     <span data-lexical-text="true">Done</span>
   </p>
@@ -1313,14 +1313,14 @@ Inline \`code\` format which also \`preserves **_~~any markdown-like~~_** text\`
 \`\`\``;
 
 const IMPORTED_MARKDOWN_HTML = html`
-  <h1 class="PlaygroundEditorTheme__h1 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h1 class="PlaygroundEditorTheme__h1" dir="ltr">
     <span data-lexical-text="true">Markdown Import</span>
   </h1>
-  <h3 class="PlaygroundEditorTheme__h3 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h3 class="PlaygroundEditorTheme__h3" dir="ltr">
     <span data-lexical-text="true">Formatting</span>
   </h3>
   <p
-    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__paragraph"
     dir="ltr">
     <span data-lexical-text="true">This is</span>
     <em class="PlaygroundEditorTheme__textItalic" data-lexical-text="true">
@@ -1347,7 +1347,7 @@ const IMPORTED_MARKDOWN_HTML = html`
     <span data-lexical-text="true">text</span>
   </p>
   <p
-    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__paragraph"
     dir="ltr">
     <span data-lexical-text="true">This is</span>
     <strong
@@ -1364,7 +1364,7 @@ const IMPORTED_MARKDOWN_HTML = html`
     </strong>
   </p>
   <p
-    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__paragraph"
     dir="ltr">
     <span data-lexical-text="true">It</span>
     <strong
@@ -1373,7 +1373,7 @@ const IMPORTED_MARKDOWN_HTML = html`
       works
     </strong>
     <a
-      class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+      class="PlaygroundEditorTheme__link"
       dir="ltr"
       href="https://lexical.io">
       <strong
@@ -1385,18 +1385,18 @@ const IMPORTED_MARKDOWN_HTML = html`
     <span data-lexical-text="true">too</span>
   </p>
   <p
-    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__paragraph"
     dir="ltr">
     <span data-lexical-text="true">Links</span>
     <a
-      class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+      class="PlaygroundEditorTheme__link"
       dir="ltr"
       href="https://lexical.io/tag_here_and__here__and___here___too">
       <span data-lexical-text="true">with underscores</span>
     </a>
     <span data-lexical-text="true">and (</span>
     <a
-      class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+      class="PlaygroundEditorTheme__link"
       dir="ltr"
       href="https://lexical.dev">
       <span data-lexical-text="true">parenthesis</span>
@@ -1404,7 +1404,7 @@ const IMPORTED_MARKDOWN_HTML = html`
     <span data-lexical-text="true">)</span>
   </p>
   <p
-    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__paragraph"
     dir="ltr">
     <em class="PlaygroundEditorTheme__textItalic" data-lexical-text="true">
       Nested
@@ -1418,39 +1418,39 @@ const IMPORTED_MARKDOWN_HTML = html`
       are handled too
     </em>
   </p>
-  <h3 class="PlaygroundEditorTheme__h3 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h3 class="PlaygroundEditorTheme__h3" dir="ltr">
     <span data-lexical-text="true">Headings</span>
   </h3>
-  <h1 class="PlaygroundEditorTheme__h1 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h1 class="PlaygroundEditorTheme__h1" dir="ltr">
     <span data-lexical-text="true">h1 Heading</span>
   </h1>
-  <h2 class="PlaygroundEditorTheme__h2 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h2 class="PlaygroundEditorTheme__h2" dir="ltr">
     <span data-lexical-text="true">h2 Heading</span>
   </h2>
-  <h3 class="PlaygroundEditorTheme__h3 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h3 class="PlaygroundEditorTheme__h3" dir="ltr">
     <span data-lexical-text="true">h3 Heading</span>
   </h3>
-  <h4 class="PlaygroundEditorTheme__h4 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h4 class="PlaygroundEditorTheme__h4" dir="ltr">
     <span data-lexical-text="true">h4 Heading</span>
   </h4>
-  <h5 class="PlaygroundEditorTheme__h5 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h5 class="PlaygroundEditorTheme__h5" dir="ltr">
     <span data-lexical-text="true">h5 Heading</span>
   </h5>
-  <h6 class="PlaygroundEditorTheme__h6 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h6 class="PlaygroundEditorTheme__h6" dir="ltr">
     <span data-lexical-text="true">h6 Heading</span>
   </h6>
-  <h3 class="PlaygroundEditorTheme__h3 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h3 class="PlaygroundEditorTheme__h3" dir="ltr">
     <span data-lexical-text="true">Horizontal Rules</span>
   </h3>
   <hr
     class="PlaygroundEditorTheme__hr"
     contenteditable="false"
     data-lexical-decorator="true" />
-  <h3 class="PlaygroundEditorTheme__h3 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h3 class="PlaygroundEditorTheme__h3" dir="ltr">
     <span data-lexical-text="true">Blockquotes</span>
   </h3>
   <blockquote
-    class="PlaygroundEditorTheme__quote PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__quote"
     dir="ltr">
     <span data-lexical-text="true">Blockquotes text goes here</span>
     <br />
@@ -1459,16 +1459,16 @@ const IMPORTED_MARKDOWN_HTML = html`
     <span data-lexical-text="true">line after</span>
   </blockquote>
   <blockquote
-    class="PlaygroundEditorTheme__quote PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__quote"
     dir="ltr">
     <span data-lexical-text="true">Standalone again</span>
   </blockquote>
-  <h3 class="PlaygroundEditorTheme__h3 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h3 class="PlaygroundEditorTheme__h3" dir="ltr">
     <span data-lexical-text="true">Unordered lists</span>
   </h3>
   <ul class="PlaygroundEditorTheme__ul">
     <li
-      class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+      class="PlaygroundEditorTheme__listItem"
       dir="ltr"
       value="1">
       <span data-lexical-text="true">Create a list with</span>
@@ -1489,7 +1489,7 @@ const IMPORTED_MARKDOWN_HTML = html`
       value="2">
       <ul class="PlaygroundEditorTheme__ul">
         <li
-          class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__listItem"
           dir="ltr"
           value="1">
           <span data-lexical-text="true">
@@ -1501,7 +1501,7 @@ const IMPORTED_MARKDOWN_HTML = html`
           value="2">
           <ul class="PlaygroundEditorTheme__ul">
             <li
-              class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__listItem"
               dir="ltr"
               value="1">
               <span data-lexical-text="true">Very easy</span>
@@ -1511,12 +1511,12 @@ const IMPORTED_MARKDOWN_HTML = html`
       </ul>
     </li>
   </ul>
-  <h3 class="PlaygroundEditorTheme__h3 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h3 class="PlaygroundEditorTheme__h3" dir="ltr">
     <span data-lexical-text="true">Ordered lists</span>
   </h3>
   <ol class="PlaygroundEditorTheme__ol1">
     <li
-      class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+      class="PlaygroundEditorTheme__listItem"
       dir="ltr"
       value="1">
       <span data-lexical-text="true">
@@ -1531,7 +1531,7 @@ const IMPORTED_MARKDOWN_HTML = html`
       value="2">
       <ol class="PlaygroundEditorTheme__ol2">
         <li
-          class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__listItem"
           dir="ltr"
           value="1">
           <span data-lexical-text="true">And can be nested</span>
@@ -1546,17 +1546,17 @@ const IMPORTED_MARKDOWN_HTML = html`
   </p>
   <ol class="PlaygroundEditorTheme__ol1" start="31">
     <li
-      class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+      class="PlaygroundEditorTheme__listItem"
       dir="ltr"
       value="31">
       <span data-lexical-text="true">Have any starting number</span>
     </li>
   </ol>
-  <h3 class="PlaygroundEditorTheme__h3 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h3 class="PlaygroundEditorTheme__h3" dir="ltr">
     <span data-lexical-text="true">Inline code</span>
   </h3>
   <p
-    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__paragraph"
     dir="ltr">
     <span data-lexical-text="true">Inline</span>
     <code spellcheck="false" data-lexical-text="true">
@@ -1570,11 +1570,11 @@ const IMPORTED_MARKDOWN_HTML = html`
     </code>
     <span data-lexical-text="true">within</span>
   </p>
-  <h3 class="PlaygroundEditorTheme__h3 PlaygroundEditorTheme__ltr" dir="ltr">
+  <h3 class="PlaygroundEditorTheme__h3" dir="ltr">
     <span data-lexical-text="true">Code blocks</span>
   </h3>
   <code
-    class="PlaygroundEditorTheme__code PlaygroundEditorTheme__ltr"
+    class="PlaygroundEditorTheme__code"
     dir="ltr"
     spellcheck="false"
     data-gutter="123"

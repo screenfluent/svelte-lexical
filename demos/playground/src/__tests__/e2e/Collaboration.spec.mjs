@@ -53,17 +53,17 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">hello</span>
         </p>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">hello world again</span>
         </p>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">world</span>
         </p>
@@ -82,7 +82,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">hello</span>
         </p>
@@ -90,7 +90,7 @@ test.describe('Collaboration', () => {
           <br />
         </p>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">world</span>
         </p>
@@ -113,13 +113,13 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">hello</span>
         </p>
         <ul class="PlaygroundEditorTheme__ul PlaygroundEditorTheme__checklist">
           <li
-            class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__listItemUnchecked PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__listItemUnchecked"
             dir="ltr"
             role="checkbox"
             tabindex="-1"
@@ -128,7 +128,7 @@ test.describe('Collaboration', () => {
             <span data-lexical-text="true">a</span>
           </li>
           <li
-            class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__listItemUnchecked PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__listItemUnchecked"
             dir="ltr"
             role="checkbox"
             tabindex="-1"
@@ -146,7 +146,7 @@ test.describe('Collaboration', () => {
           </li>
         </ul>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">world</span>
         </p>
@@ -165,7 +165,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">hello</span>
         </p>
@@ -173,7 +173,7 @@ test.describe('Collaboration', () => {
           <br />
         </p>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">world</span>
         </p>
@@ -201,12 +201,12 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">hello</span>
         </p>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Some</span>
           <strong
@@ -217,7 +217,7 @@ test.describe('Collaboration', () => {
           <span data-lexical-text="true">text</span>
         </p>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">world</span>
         </p>
@@ -260,12 +260,12 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Line 1</span>
         </p>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">This is a test. Word</span>
         </p>
@@ -282,7 +282,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Line 1</span>
         </p>
@@ -302,7 +302,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Line 1</span>
         </p>
@@ -326,7 +326,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">normal</span>
         </p>
@@ -340,7 +340,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">normal</span>
           <strong
@@ -365,7 +365,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">normal</span>
           <strong
@@ -387,7 +387,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">normalBOLD</span>
         </p>
@@ -406,7 +406,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">normalBOLD</span>
         </p>
@@ -434,7 +434,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">normal</span>
           <strong
@@ -460,7 +460,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">normal</span>
           <strong
@@ -480,7 +480,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">normal boldBOLD</span>
         </p>
@@ -495,7 +495,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">normal</span>
           <strong
@@ -524,7 +524,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">normal</span>
           <strong
@@ -562,11 +562,11 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Check out the</span>
           <a
-            class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__link"
             dir="ltr"
             href="https://"
             rel="noreferrer">
@@ -590,11 +590,11 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Check out the</span>
           <a
-            class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__link"
             dir="ltr"
             href="https://"
             rel="noreferrer">
@@ -613,7 +613,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Check out the website! now</span>
         </p>
@@ -628,11 +628,11 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Check out the</span>
           <a
-            class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__link"
             dir="ltr"
             href="https://"
             rel="noreferrer">
@@ -655,11 +655,11 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Check out the</span>
           <a
-            class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__link"
             dir="ltr"
             href="https://"
             rel="noreferrer">
@@ -692,7 +692,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">A</span>
           <strong
@@ -719,7 +719,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">C</span>
         </p>
@@ -734,7 +734,7 @@ test.describe('Collaboration', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">AC</span>
         </p>

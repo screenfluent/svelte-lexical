@@ -90,14 +90,14 @@ function testSuite(charset) {
         <p class="PlaygroundEditorTheme__paragraph">
           <span data-lexical-text="true">1234</span>
           <span
-            class="PlaygroundEditorTheme__characterLimit PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__characterLimit"
             dir="ltr">
             <span class="emoji happysmile" data-lexical-text="true">
               <span class="emoji-inner">🙂</span>
             </span>
             <span data-lexical-text="true">56</span>
             <a
-              class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__link"
               dir="ltr"
               href="https://www.example.com">
               <span data-lexical-text="true">www.example.com</span>
@@ -114,7 +114,7 @@ function testSuite(charset) {
         <p class="PlaygroundEditorTheme__paragraph">
           <span data-lexical-text="true">1234</span>
           <span
-            class="PlaygroundEditorTheme__characterLimit PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__characterLimit"
             dir="ltr">
             <span class="emoji happysmile" data-lexical-text="true">
               <span class="emoji-inner">🙂</span>
@@ -142,7 +142,7 @@ function testSuite(charset) {
         <p class="PlaygroundEditorTheme__paragraph">
           <span data-lexical-text="true">1234</span>
           <span
-            class="PlaygroundEditorTheme__characterLimit PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__characterLimit"
             dir="ltr">
             <span class="emoji happysmile" data-lexical-text="true">
               <span class="emoji-inner">🙂</span>
@@ -308,7 +308,7 @@ function testSuite(charset) {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">234</span>
             <span class="emoji happysmile" data-lexical-text="true">
@@ -325,11 +325,11 @@ function testSuite(charset) {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">234</span>
             <span
-              class="PlaygroundEditorTheme__characterLimit PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__characterLimit"
               dir="ltr">
               <span class="emoji happysmile" data-lexical-text="true">
                 <span class="emoji-inner">🙂</span>
@@ -414,11 +414,11 @@ function testSuite(charset) {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">ààààà</span>
             <span
-              class="PlaygroundEditorTheme__characterLimit PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__characterLimit"
               dir="ltr">
               <span data-lexical-text="true">à</span>
             </span>
@@ -430,11 +430,11 @@ function testSuite(charset) {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">àà</span>
             <span
-              class="PlaygroundEditorTheme__characterLimit PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__characterLimit"
               dir="ltr">
               <span data-lexical-text="true">àààà</span>
             </span>
@@ -453,10 +453,10 @@ function testSuite(charset) {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span
-            class="PlaygroundEditorTheme__characterLimit PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__characterLimit"
             dir="ltr">
             <span data-lexical-text="true">👨‍👩‍👦‍👦</span>
           </span>

@@ -52,11 +52,11 @@ test.describe('Regression test #3136', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">replaced</span>
           <a
-            class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__link"
             dir="ltr"
             href="https://"
             rel="noreferrer">
@@ -97,10 +97,10 @@ test.describe('Regression test #3136', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <a
-            class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__link"
             dir="ltr"
             href="https://"
             rel="noreferrer">

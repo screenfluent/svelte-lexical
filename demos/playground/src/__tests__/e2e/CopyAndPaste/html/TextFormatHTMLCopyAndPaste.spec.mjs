@@ -28,7 +28,7 @@ test.describe('HTML CopyAndPaste', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -37,7 +37,7 @@ test.describe('HTML CopyAndPaste', () => {
           </strong>
         </p>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <em
             class="PlaygroundEditorTheme__textItalic"
@@ -46,7 +46,7 @@ test.describe('HTML CopyAndPaste', () => {
           </em>
         </p>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span
             class="PlaygroundEditorTheme__textUnderline"
@@ -55,7 +55,7 @@ test.describe('HTML CopyAndPaste', () => {
           </span>
         </p>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic
@@ -85,7 +85,7 @@ test.describe('HTML CopyAndPaste', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"

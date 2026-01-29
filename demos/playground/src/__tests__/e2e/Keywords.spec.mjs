@@ -36,7 +36,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span
             class="keyword"
@@ -60,7 +60,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">congratsc</span>
         </p>
@@ -80,7 +80,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span
             class="keyword"
@@ -106,7 +106,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span
             class="keyword"
@@ -154,7 +154,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">congratscongrats</span>
         </p>
@@ -173,7 +173,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span
             class="keyword"
@@ -207,7 +207,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span
             class="keyword"
@@ -245,7 +245,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span
             class="keyword"
@@ -271,7 +271,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span
             class="keyword"
@@ -309,7 +309,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">congrats</span>
           <strong
@@ -328,7 +328,7 @@ test.describe('Keywords', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span
               class="keyword"
@@ -349,7 +349,7 @@ test.describe('Keywords', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span
               class="keyword"
@@ -399,7 +399,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -424,7 +424,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -453,7 +453,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -483,7 +483,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -514,7 +514,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -548,7 +548,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -579,7 +579,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -603,7 +603,7 @@ test.describe('Keywords', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"

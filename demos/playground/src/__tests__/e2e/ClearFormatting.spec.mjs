@@ -50,7 +50,7 @@ test.describe('Clear All Formatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello World Test</span>
         </p>
@@ -79,7 +79,7 @@ test.describe('Clear All Formatting', () => {
         html`
           <p class="PlaygroundEditorTheme__paragraph">
             <a
-              class="PlaygroundEditorTheme__link PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__link"
               dir="ltr"
               href="https://facebook.com">
               <span data-lexical-text="true">Facebook!</span>
@@ -102,7 +102,7 @@ test.describe('Clear All Formatting', () => {
         page,
         html`
           <blockquote
-            class="PlaygroundEditorTheme__quote PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__quote"
             dir="ltr">
             <span data-lexical-text="true">Testing for quote node</span>
           </blockquote>
@@ -129,7 +129,7 @@ test.describe('Clear All Formatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span
               class="PlaygroundEditorTheme__hashtag"
@@ -150,7 +150,7 @@ test.describe('Clear All Formatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">@Luke</span>
           </p>
@@ -182,7 +182,7 @@ test.describe('Clear All Formatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span
               class="mention"
@@ -214,7 +214,7 @@ test.describe('Clear All Formatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr"
           style="">
           <span data-lexical-text="true">Hello World Test</span>
@@ -238,7 +238,7 @@ test.describe('Clear All Formatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr"
           style="">
           <span data-lexical-text="true">Hello World Test</span>
@@ -262,7 +262,7 @@ test.describe('Clear All Formatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr"
           style="">
           <span data-lexical-text="true">Hello World Test</span>
@@ -292,7 +292,7 @@ test.describe('Clear All Formatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr"
           style="">
           <span data-lexical-text="true">Hello World Test</span>

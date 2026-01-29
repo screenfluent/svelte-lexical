@@ -39,7 +39,7 @@ test.describe('Composition', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">も</span>
         </p>
@@ -73,7 +73,7 @@ test.describe('Composition', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">もじ</span>
         </p>
@@ -95,7 +95,7 @@ test.describe('Composition', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__rtl"
+          class="PlaygroundEditorTheme__paragraph"
           dir="rtl">
           <span data-lexical-text="true">هَ</span>
         </p>
@@ -113,7 +113,7 @@ test.describe('Composition', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__rtl"
+          class="PlaygroundEditorTheme__paragraph"
           dir="rtl">
           <span data-lexical-text="true">ه</span>
         </p>
@@ -140,7 +140,7 @@ test.describe('Composition', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__rtl"
+          class="PlaygroundEditorTheme__paragraph"
           dir="rtl">
           <span data-lexical-text="true">هَ</span>
         </p>
@@ -166,7 +166,7 @@ test.describe('Composition', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__rtl"
+          class="PlaygroundEditorTheme__paragraph"
           dir="rtl">
           <span data-lexical-text="true">ه</span>
         </p>
@@ -253,7 +253,7 @@ test.describe('Composition', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">すし もじあ</span>
           </p>
@@ -365,7 +365,7 @@ test.describe('Composition', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <br />
             <span data-lexical-text="true">すし もじあ</span>
@@ -439,7 +439,7 @@ test.describe('Composition', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">Hello</span>
             <strong
@@ -544,7 +544,7 @@ test.describe('Composition', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span class="emoji happysmile" data-lexical-text="true">
                 <span class="emoji-inner">🙂</span>
@@ -568,7 +568,7 @@ test.describe('Composition', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span class="emoji happysmile" data-lexical-text="true">
                 <span class="emoji-inner">🙂</span>
@@ -635,7 +635,7 @@ test.describe('Composition', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span class="emoji happysmile" data-lexical-text="true">
                 <span class="emoji-inner">🙂</span>
@@ -745,7 +745,7 @@ test.describe('Composition', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span
                 class="mention"
@@ -860,7 +860,7 @@ test.describe('Composition', () => {
             page,
             html`
               <p
-                class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+                class="PlaygroundEditorTheme__paragraph"
                 dir="ltr">
                 <span data-lexical-text="true">
                   Luke &nbsp;すし もじあSkywalker
@@ -875,7 +875,7 @@ test.describe('Composition', () => {
             page,
             html`
               <p
-                class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+                class="PlaygroundEditorTheme__paragraph"
                 dir="ltr">
                 <span data-lexical-text="true">Luke ​すし もじあSkywalker</span>
               </p>
@@ -945,7 +945,7 @@ test.describe('Composition', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span
                 class="mention"
@@ -1050,7 +1050,7 @@ test.describe('Composition', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span
               class="PlaygroundEditorTheme__hashtag"
@@ -1109,7 +1109,7 @@ test.describe('Composition', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">すし#すし もじあ</span>
           </p>

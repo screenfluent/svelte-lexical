@@ -44,7 +44,7 @@ test.describe('File', () => {
 
     const expectedHtml = html`
       <p
-        class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+        class="PlaygroundEditorTheme__paragraph"
         dir="ltr">
         <strong
           class="PlaygroundEditorTheme__textBold"
@@ -55,13 +55,13 @@ test.describe('File', () => {
       </p>
       <ol class="PlaygroundEditorTheme__ol1">
         <li
-          class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__listItem"
           dir="ltr"
           value="1">
           <span data-lexical-text="true">one</span>
         </li>
         <li
-          class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__listItem"
           dir="ltr"
           value="2">
           <span data-lexical-text="true">two</span>

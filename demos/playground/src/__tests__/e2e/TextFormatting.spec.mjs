@@ -48,7 +48,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <strong
@@ -72,7 +72,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <strong
@@ -106,7 +106,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <em
@@ -130,7 +130,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <em
@@ -172,7 +172,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <strong
@@ -196,7 +196,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello world!</span>
         </p>
@@ -239,7 +239,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -248,7 +248,7 @@ test.describe.parallel('TextFormatting', () => {
           </strong>
         </p>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">hello world</span>
         </p>
@@ -278,7 +278,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <em
@@ -302,7 +302,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello world!</span>
         </p>
@@ -338,7 +338,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <span
@@ -362,7 +362,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello world!</span>
         </p>
@@ -387,7 +387,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <span
@@ -416,7 +416,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <span
@@ -459,7 +459,7 @@ test.describe.parallel('TextFormatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">Hello</span>
             <span style="font-size: 17px;" data-lexical-text="true">world</span>
@@ -494,7 +494,7 @@ test.describe.parallel('TextFormatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span style="font-size: 17px;" data-lexical-text="true">Hello</span>
             <span style="font-size: 19px;" data-lexical-text="true">
@@ -529,7 +529,7 @@ test.describe.parallel('TextFormatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">Hello</span>
             <span style="font-size: 13px;" data-lexical-text="true">world</span>
@@ -564,7 +564,7 @@ test.describe.parallel('TextFormatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span style="font-size: 13px;" data-lexical-text="true">Hello</span>
             <span style="font-size: 12px;" data-lexical-text="true">
@@ -600,7 +600,7 @@ test.describe.parallel('TextFormatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">Hello</span>
             <span style="font-size: 17px;" data-lexical-text="true">world</span>
@@ -623,7 +623,7 @@ test.describe.parallel('TextFormatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">Hello</span>
             <span
@@ -649,7 +649,7 @@ test.describe.parallel('TextFormatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">Hello</span>
             <span
@@ -695,7 +695,7 @@ test.describe.parallel('TextFormatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">Hello</span>
             <span style="font-size: 20px;" data-lexical-text="true">world</span>
@@ -731,7 +731,7 @@ test.describe.parallel('TextFormatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span style="font-size: 20px;" data-lexical-text="true">
               Hello world!
@@ -765,7 +765,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <strong
@@ -799,7 +799,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <strong
@@ -833,7 +833,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <strong
@@ -870,7 +870,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello w</span>
           <em
@@ -894,7 +894,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <em
@@ -919,7 +919,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello world!</span>
         </p>
@@ -968,7 +968,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">123</span>
           <strong
@@ -1019,7 +1019,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">12z</span>
         </p>
@@ -1147,7 +1147,7 @@ test.describe.parallel('TextFormatting', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">A</span>
             <span
@@ -1173,7 +1173,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">A</span>
           <span
@@ -1202,7 +1202,7 @@ test.describe.parallel('TextFormatting', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">A</span>
           <span

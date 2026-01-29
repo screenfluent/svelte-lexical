@@ -47,12 +47,12 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
             </p>
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world, again and again</span>
             </p>
@@ -69,7 +69,7 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
               <br />
@@ -92,12 +92,12 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
             </p>
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world again</span>
             </p>
@@ -114,7 +114,7 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
               <br />
@@ -137,12 +137,12 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
             </p>
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <br />
             </p>
@@ -159,7 +159,7 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
               <br />
@@ -181,7 +181,7 @@ test.describe('History', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">hello world</span>
           </p>
@@ -200,7 +200,7 @@ test.describe('History', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">hello</span>
           </p>
@@ -234,7 +234,7 @@ test.describe('History', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">hello</span>
           </p>
@@ -253,7 +253,7 @@ test.describe('History', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">hello world</span>
           </p>
@@ -273,7 +273,7 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
             </p>
@@ -291,7 +291,7 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
               <br />
@@ -314,12 +314,12 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
             </p>
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world again</span>
             </p>
@@ -336,7 +336,7 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
               <br />
@@ -359,12 +359,12 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
             </p>
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world, again and again</span>
             </p>
@@ -381,7 +381,7 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
               <br />
@@ -404,12 +404,12 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
             </p>
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world, again again</span>
             </p>
@@ -426,7 +426,7 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
               <br />
@@ -449,12 +449,12 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
             </p>
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world, again and again</span>
             </p>
@@ -471,7 +471,7 @@ test.describe('History', () => {
           page,
           html`
             <p
-              class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__paragraph"
               dir="ltr">
               <span data-lexical-text="true">hello world</span>
               <br />
@@ -506,7 +506,7 @@ test.describe('History', () => {
 
     const step1HTML = html`
       <p
-        class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+        class="PlaygroundEditorTheme__paragraph"
         dir="ltr">
         <strong
           class="PlaygroundEditorTheme__textBold"
@@ -523,7 +523,7 @@ test.describe('History', () => {
     `;
     const step2HTML = html`
       <p
-        class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+        class="PlaygroundEditorTheme__paragraph"
         dir="ltr">
         <strong
           class="PlaygroundEditorTheme__textBold"
@@ -535,7 +535,7 @@ test.describe('History', () => {
     `;
     const step3HTML = html`
       <p
-        class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+        class="PlaygroundEditorTheme__paragraph"
         dir="ltr">
         <strong
           class="PlaygroundEditorTheme__textBold"
@@ -660,7 +660,7 @@ test.describe('History - IME', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">すし もじあ</span>
         </p>
@@ -682,7 +682,7 @@ test.describe('History - IME', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">すし${WHITESPACE_TOKEN}</span>
         </p>
@@ -702,7 +702,7 @@ test.describe('History - IME', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">すし</span>
         </p>
@@ -732,7 +732,7 @@ test.describe('History - IME', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">すし</span>
           </p>
@@ -769,7 +769,7 @@ test.describe('History - IME', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">すし</span>
         </p>

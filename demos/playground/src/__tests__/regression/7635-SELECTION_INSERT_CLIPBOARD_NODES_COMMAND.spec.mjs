@@ -106,7 +106,7 @@ test.describe('Regression #7635', () => {
                   aria-placeholder="Enter a caption..."
                   data-lexical-editor="true">
                   <p
-                    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+                    class="PlaygroundEditorTheme__paragraph"
                     dir="ltr">
                     <span data-lexical-text="true">some content</span>
                   </p>
@@ -156,7 +156,7 @@ test.describe('Regression #7635', () => {
                   aria-placeholder="Enter a caption..."
                   data-lexical-editor="true">
                   <p
-                    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+                    class="PlaygroundEditorTheme__paragraph"
                     dir="ltr">
                     <span data-lexical-text="true">Hello</span>
                     <strong
@@ -203,7 +203,7 @@ test.describe('Regression #7635', () => {
                   aria-placeholder="Enter a caption..."
                   data-lexical-editor="true">
                   <p
-                    class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+                    class="PlaygroundEditorTheme__paragraph"
                     dir="ltr">
                     <span data-lexical-text="true">Hello</span>
                     <strong
@@ -218,7 +218,7 @@ test.describe('Regression #7635', () => {
             <br />
           </p>
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">Below the image</span>
           </p>

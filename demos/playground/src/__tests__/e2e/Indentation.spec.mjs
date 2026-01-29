@@ -80,23 +80,23 @@ test.describe('Identation', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">foo</span>
           </p>
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">bar</span>
           </p>
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span data-lexical-text="true">yar</span>
           </p>
           <ul class="PlaygroundEditorTheme__ul">
             <li
-              class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__listItem"
               dir="ltr"
               value="1">
               <span data-lexical-text="true">itemitem 2</span>
@@ -106,7 +106,7 @@ test.describe('Identation', () => {
               value="2">
               <ul class="PlaygroundEditorTheme__ul">
                 <li
-                  class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+                  class="PlaygroundEditorTheme__listItem"
                   dir="ltr"
                   value="1">
                   <span data-lexical-text="true">item 3</span>
@@ -115,7 +115,7 @@ test.describe('Identation', () => {
             </li>
           </ul>
           <code
-            class="PlaygroundEditorTheme__code PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__code"
             dir="ltr"
             spellcheck="false"
             data-gutter="1"
@@ -133,7 +133,7 @@ test.describe('Identation', () => {
               <th
                 class="PlaygroundEditorTheme__tableCell PlaygroundEditorTheme__tableCellHeader PlaygroundEditorTheme__tableCellSelected">
                 <p
-                  class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+                  class="PlaygroundEditorTheme__paragraph"
                   dir="ltr">
                   <span data-lexical-text="true">foo</span>
                 </p>
@@ -151,19 +151,19 @@ test.describe('Identation', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr PlaygroundEditorTheme__indent"
+            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__indent"
             dir="ltr"
             style="padding-inline-start: calc(40px)">
             <span data-lexical-text="true">foo</span>
           </p>
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr PlaygroundEditorTheme__indent"
+            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__indent"
             dir="ltr"
             style="padding-inline-start: calc(40px)">
             <span data-lexical-text="true">bar</span>
           </p>
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr PlaygroundEditorTheme__indent"
+            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__indent"
             dir="ltr"
             style="padding-inline-start: calc(40px)">
             <span data-lexical-text="true">yar</span>
@@ -174,7 +174,7 @@ test.describe('Identation', () => {
               value="1">
               <ul class="PlaygroundEditorTheme__ul">
                 <li
-                  class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+                  class="PlaygroundEditorTheme__listItem"
                   dir="ltr"
                   value="1">
                   <span data-lexical-text="true">itemitem 2</span>
@@ -184,7 +184,7 @@ test.describe('Identation', () => {
                   value="2">
                   <ul class="PlaygroundEditorTheme__ul">
                     <li
-                      class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+                      class="PlaygroundEditorTheme__listItem"
                       dir="ltr"
                       value="1">
                       <span data-lexical-text="true">item 3</span>
@@ -195,7 +195,7 @@ test.describe('Identation', () => {
             </li>
           </ul>
           <code
-            class="PlaygroundEditorTheme__code PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__code"
             dir="ltr"
             spellcheck="false"
             data-gutter="1"
@@ -217,7 +217,7 @@ test.describe('Identation', () => {
               <th
                 class="PlaygroundEditorTheme__tableCell PlaygroundEditorTheme__tableCellHeader PlaygroundEditorTheme__tableCellSelected">
                 <p
-                  class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr PlaygroundEditorTheme__indent"
+                  class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__indent"
                   dir="ltr"
                   style="padding-inline-start: calc(40px)">
                   <span data-lexical-text="true">foo</span>
@@ -240,19 +240,19 @@ test.describe('Identation', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr PlaygroundEditorTheme__indent"
+            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__indent"
             dir="ltr"
             style="padding-inline-start: calc(80px)">
             <span data-lexical-text="true">foo</span>
           </p>
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr PlaygroundEditorTheme__indent"
+            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__indent"
             dir="ltr"
             style="padding-inline-start: calc(80px)">
             <span data-lexical-text="true">bar</span>
           </p>
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr PlaygroundEditorTheme__indent"
+            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__indent"
             dir="ltr"
             style="padding-inline-start: calc(80px)">
             <span data-lexical-text="true">yar</span>
@@ -267,7 +267,7 @@ test.describe('Identation', () => {
                   value="1">
                   <ul class="PlaygroundEditorTheme__ul">
                     <li
-                      class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+                      class="PlaygroundEditorTheme__listItem"
                       dir="ltr"
                       value="1">
                       <span data-lexical-text="true">itemitem 2</span>
@@ -277,7 +277,7 @@ test.describe('Identation', () => {
                       value="2">
                       <ul class="PlaygroundEditorTheme__ul">
                         <li
-                          class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+                          class="PlaygroundEditorTheme__listItem"
                           dir="ltr"
                           value="1">
                           <span data-lexical-text="true">item 3</span>
@@ -290,7 +290,7 @@ test.describe('Identation', () => {
             </li>
           </ul>
           <code
-            class="PlaygroundEditorTheme__code PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__code"
             dir="ltr"
             spellcheck="false"
             data-gutter="1"
@@ -312,7 +312,7 @@ test.describe('Identation', () => {
               <th
                 class="PlaygroundEditorTheme__tableCell PlaygroundEditorTheme__tableCellHeader PlaygroundEditorTheme__tableCellSelected">
                 <p
-                  class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr PlaygroundEditorTheme__indent"
+                  class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__indent"
                   dir="ltr"
                   style="padding-inline-start: calc(80px)">
                   <span data-lexical-text="true">foo</span>
@@ -335,19 +335,19 @@ test.describe('Identation', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr PlaygroundEditorTheme__indent"
+            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__indent"
             dir="ltr"
             style="padding-inline-start: calc(40px)">
             <span data-lexical-text="true">foo</span>
           </p>
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr PlaygroundEditorTheme__indent"
+            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__indent"
             dir="ltr"
             style="padding-inline-start: calc(40px)">
             <span data-lexical-text="true">bar</span>
           </p>
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr PlaygroundEditorTheme__indent"
+            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__indent"
             dir="ltr"
             style="padding-inline-start: calc(40px)">
             <span data-lexical-text="true">yar</span>
@@ -358,7 +358,7 @@ test.describe('Identation', () => {
               value="1">
               <ul class="PlaygroundEditorTheme__ul">
                 <li
-                  class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+                  class="PlaygroundEditorTheme__listItem"
                   dir="ltr"
                   value="1">
                   <span data-lexical-text="true">itemitem 2</span>
@@ -368,7 +368,7 @@ test.describe('Identation', () => {
                   value="2">
                   <ul class="PlaygroundEditorTheme__ul">
                     <li
-                      class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+                      class="PlaygroundEditorTheme__listItem"
                       dir="ltr"
                       value="1">
                       <span data-lexical-text="true">item 3</span>
@@ -379,7 +379,7 @@ test.describe('Identation', () => {
             </li>
           </ul>
           <code
-            class="PlaygroundEditorTheme__code PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__code"
             dir="ltr"
             spellcheck="false"
             data-gutter="1"
@@ -401,7 +401,7 @@ test.describe('Identation', () => {
               <th
                 class="PlaygroundEditorTheme__tableCell PlaygroundEditorTheme__tableCellHeader PlaygroundEditorTheme__tableCellSelected">
                 <p
-                  class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr PlaygroundEditorTheme__indent"
+                  class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__indent"
                   dir="ltr"
                   style="padding-inline-start: calc(40px)">
                   <span data-lexical-text="true">foo</span>
@@ -424,26 +424,26 @@ test.describe('Identation', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr"
             style="">
             <span data-lexical-text="true">foo</span>
           </p>
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr"
             style="">
             <span data-lexical-text="true">bar</span>
           </p>
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr"
             style="">
             <span data-lexical-text="true">yar</span>
           </p>
           <ul class="PlaygroundEditorTheme__ul">
             <li
-              class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+              class="PlaygroundEditorTheme__listItem"
               dir="ltr"
               value="1">
               <span data-lexical-text="true">itemitem 2</span>
@@ -453,7 +453,7 @@ test.describe('Identation', () => {
               value="2">
               <ul class="PlaygroundEditorTheme__ul">
                 <li
-                  class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+                  class="PlaygroundEditorTheme__listItem"
                   dir="ltr"
                   value="1">
                   <span data-lexical-text="true">item 3</span>
@@ -462,7 +462,7 @@ test.describe('Identation', () => {
             </li>
           </ul>
           <code
-            class="PlaygroundEditorTheme__code PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__code"
             dir="ltr"
             spellcheck="false"
             data-gutter="1"
@@ -480,7 +480,7 @@ test.describe('Identation', () => {
               <th
                 class="PlaygroundEditorTheme__tableCell PlaygroundEditorTheme__tableCellHeader PlaygroundEditorTheme__tableCellSelected">
                 <p
-                  class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+                  class="PlaygroundEditorTheme__paragraph"
                   dir="ltr"
                   style="">
                   <span data-lexical-text="true">foo</span>
@@ -548,7 +548,7 @@ test.describe('Identation', () => {
 
       await assertHTML(
         page,
-        '<ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" value="1" dir="ltr"><span data-lexical-text="true">World</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul>',
+        '<ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem" value="1" dir="ltr"><span data-lexical-text="true">World</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul>',
       );
 
       await clickIndentButton(page);
@@ -556,7 +556,7 @@ test.describe('Identation', () => {
       // should stay the same
       await assertHTML(
         page,
-        '<ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" value="1" dir="ltr"><span data-lexical-text="true">World</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul>',
+        '<ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem" value="1"><ul class="PlaygroundEditorTheme__ul"><li class="PlaygroundEditorTheme__listItem" value="1" dir="ltr"><span data-lexical-text="true">World</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul>',
       );
     },
   );
@@ -585,7 +585,7 @@ test.describe('Identation', () => {
 
       await assertHTML(
         page,
-        '<ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">Hello</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">from</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">the</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">other</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">side</span></li><li value="2" class="PlaygroundEditorTheme__listItem"><br></li></ul></li></ul></li></ul></li></ul></li></ul>',
+        '<ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">Hello</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">from</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">the</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">other</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">side</span></li><li value="2" class="PlaygroundEditorTheme__listItem"><br></li></ul></li></ul></li></ul></li></ul></li></ul>',
       );
 
       await selectAll(page);
@@ -594,7 +594,7 @@ test.describe('Identation', () => {
 
       await assertHTML(
         page,
-        '<ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">Hello</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">from</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">the</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">other</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">side</span></li><li value="2" class="PlaygroundEditorTheme__listItem"><br></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul>',
+        '<ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">Hello</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">from</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">the</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">other</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">side</span></li><li value="2" class="PlaygroundEditorTheme__listItem"><br></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul>',
       );
 
       await clickIndentButton(page);
@@ -602,7 +602,7 @@ test.describe('Identation', () => {
       // should stay the same
       await assertHTML(
         page,
-        '<ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">Hello</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">from</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">the</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">other</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">side</span></li><li value="2" class="PlaygroundEditorTheme__listItem"><br></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul>',
+        '<ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">Hello</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">from</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">the</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">other</span></li><li value="2" class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"><ul class="PlaygroundEditorTheme__ul"><li value="1" class="PlaygroundEditorTheme__listItem" dir="ltr"><span data-lexical-text="true">side</span></li><li value="2" class="PlaygroundEditorTheme__listItem"><br></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul>',
       );
     },
   );
@@ -630,19 +630,19 @@ test.describe('Identation', () => {
       html`
         <ul class="PlaygroundEditorTheme__ul">
           <li
-            class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__listItem"
             dir="ltr"
             value="1">
             <span data-lexical-text="true">hello1</span>
           </li>
           <li
-            class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__listItem"
             dir="ltr"
             value="2">
             <span data-lexical-text="true">hello2</span>
           </li>
           <li
-            class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__listItem"
             dir="ltr"
             value="3">
             <span data-lexical-text="true">hello3</span>

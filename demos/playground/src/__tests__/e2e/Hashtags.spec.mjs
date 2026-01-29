@@ -37,7 +37,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span class="PlaygroundEditorTheme__hashtag" data-lexical-text="true">
             #yolo
@@ -58,7 +58,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span class="PlaygroundEditorTheme__hashtag" data-lexical-text="true">
             #yolonce
@@ -79,7 +79,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">yolonce</span>
         </p>
@@ -103,7 +103,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span class="PlaygroundEditorTheme__hashtag" data-lexical-text="true">
             #hello
@@ -132,7 +132,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span class="PlaygroundEditorTheme__hashtag" data-lexical-text="true">
             #helloworld
@@ -152,7 +152,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span class="PlaygroundEditorTheme__hashtag" data-lexical-text="true">
             #hello
@@ -190,7 +190,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span class="PlaygroundEditorTheme__hashtag" data-lexical-text="true">
             #helloworld
@@ -220,7 +220,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span class="PlaygroundEditorTheme__hashtag" data-lexical-text="true">
             #hello
@@ -292,7 +292,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
           <strong
@@ -315,7 +315,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span class="PlaygroundEditorTheme__hashtag" data-lexical-text="true">
             #hello
@@ -337,7 +337,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">#</span>
           <span class="PlaygroundEditorTheme__hashtag" data-lexical-text="true">
@@ -368,7 +368,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span class="PlaygroundEditorTheme__hashtag" data-lexical-text="true">
             #hello
@@ -417,7 +417,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span class="PlaygroundEditorTheme__hashtag" data-lexical-text="true">
             #hello
@@ -458,7 +458,7 @@ test.describe('Hashtags', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span class="PlaygroundEditorTheme__hashtag" data-lexical-text="true">
             #hello
@@ -485,7 +485,7 @@ test.describe('Hashtags', () => {
         page,
         html`
           <p
-            class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+            class="PlaygroundEditorTheme__paragraph"
             dir="ltr">
             <span
               class="PlaygroundEditorTheme__hashtag"

@@ -65,12 +65,12 @@ test.describe('HTML CopyAndPaste', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Code block</span>
         </p>
         <code
-          class="PlaygroundEditorTheme__code PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__code"
           dir="ltr"
           spellcheck="false"
           data-gutter="123"
@@ -128,7 +128,7 @@ test.describe('HTML CopyAndPaste', () => {
           </span>
         </code>
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">--end--</span>
         </p>
@@ -184,7 +184,7 @@ test.describe('HTML CopyAndPaste', () => {
           contenteditable="false"
           data-lexical-decorator="true" />
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Text between HRs</span>
         </p>
@@ -219,7 +219,7 @@ test.describe('HTML CopyAndPaste', () => {
       page,
       html`
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">Hello</span>
         </p>
@@ -228,7 +228,7 @@ test.describe('HTML CopyAndPaste', () => {
           contenteditable="false"
           data-lexical-decorator="true" />
         <p
-          class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr"
+          class="PlaygroundEditorTheme__paragraph"
           dir="ltr">
           <span data-lexical-text="true">world</span>
         </p>
