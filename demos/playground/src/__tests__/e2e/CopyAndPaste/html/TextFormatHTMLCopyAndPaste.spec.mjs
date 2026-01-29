@@ -27,36 +27,28 @@ test.describe('HTML CopyAndPaste', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"
             data-lexical-text="true">
             Bold
           </strong>
         </p>
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <em
             class="PlaygroundEditorTheme__textItalic"
             data-lexical-text="true">
             Italic
           </em>
         </p>
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <span
             class="PlaygroundEditorTheme__textUnderline"
             data-lexical-text="true">
             underline
           </span>
         </p>
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic
            PlaygroundEditorTheme__textUnderline"
@@ -84,9 +76,7 @@ test.describe('HTML CopyAndPaste', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"
             data-lexical-text="true">

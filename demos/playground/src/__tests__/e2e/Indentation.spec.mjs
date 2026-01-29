@@ -79,36 +79,24 @@ test.describe('Identation', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">foo</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">bar</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">yar</span>
           </p>
           <ul class="PlaygroundEditorTheme__ul">
-            <li
-              class="PlaygroundEditorTheme__listItem"
-              dir="ltr"
-              value="1">
+            <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
               <span data-lexical-text="true">itemitem 2</span>
             </li>
             <li
               class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"
               value="2">
               <ul class="PlaygroundEditorTheme__ul">
-                <li
-                  class="PlaygroundEditorTheme__listItem"
-                  dir="ltr"
-                  value="1">
+                <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
                   <span data-lexical-text="true">item 3</span>
                 </li>
               </ul>
@@ -132,9 +120,7 @@ test.describe('Identation', () => {
             <tr>
               <th
                 class="PlaygroundEditorTheme__tableCell PlaygroundEditorTheme__tableCellHeader PlaygroundEditorTheme__tableCellSelected">
-                <p
-                  class="PlaygroundEditorTheme__paragraph"
-                  dir="ltr">
+                <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
                   <span data-lexical-text="true">foo</span>
                 </p>
               </th>
@@ -173,10 +159,7 @@ test.describe('Identation', () => {
               class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"
               value="1">
               <ul class="PlaygroundEditorTheme__ul">
-                <li
-                  class="PlaygroundEditorTheme__listItem"
-                  dir="ltr"
-                  value="1">
+                <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
                   <span data-lexical-text="true">itemitem 2</span>
                 </li>
                 <li
@@ -357,10 +340,7 @@ test.describe('Identation', () => {
               class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"
               value="1">
               <ul class="PlaygroundEditorTheme__ul">
-                <li
-                  class="PlaygroundEditorTheme__listItem"
-                  dir="ltr"
-                  value="1">
+                <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
                   <span data-lexical-text="true">itemitem 2</span>
                 </li>
                 <li
@@ -423,39 +403,24 @@ test.describe('Identation', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr"
-            style="">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr" style="">
             <span data-lexical-text="true">foo</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr"
-            style="">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr" style="">
             <span data-lexical-text="true">bar</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr"
-            style="">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr" style="">
             <span data-lexical-text="true">yar</span>
           </p>
           <ul class="PlaygroundEditorTheme__ul">
-            <li
-              class="PlaygroundEditorTheme__listItem"
-              dir="ltr"
-              value="1">
+            <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
               <span data-lexical-text="true">itemitem 2</span>
             </li>
             <li
               class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"
               value="2">
               <ul class="PlaygroundEditorTheme__ul">
-                <li
-                  class="PlaygroundEditorTheme__listItem"
-                  dir="ltr"
-                  value="1">
+                <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
                   <span data-lexical-text="true">item 3</span>
                 </li>
               </ul>
@@ -479,10 +444,7 @@ test.describe('Identation', () => {
             <tr>
               <th
                 class="PlaygroundEditorTheme__tableCell PlaygroundEditorTheme__tableCellHeader PlaygroundEditorTheme__tableCellSelected">
-                <p
-                  class="PlaygroundEditorTheme__paragraph"
-                  dir="ltr"
-                  style="">
+                <p class="PlaygroundEditorTheme__paragraph" dir="ltr" style="">
                   <span data-lexical-text="true">foo</span>
                 </p>
               </th>
@@ -629,22 +591,13 @@ test.describe('Identation', () => {
       page,
       html`
         <ul class="PlaygroundEditorTheme__ul">
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="1">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
             <span data-lexical-text="true">hello1</span>
           </li>
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="2">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="2">
             <span data-lexical-text="true">hello2</span>
           </li>
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="3">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="3">
             <span data-lexical-text="true">hello3</span>
           </li>
         </ul>

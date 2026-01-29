@@ -109,10 +109,7 @@ test.describe.parallel('Nested List', () => {
         page,
         html`
           <ul class="PlaygroundEditorTheme__ul">
-            <li
-              class="PlaygroundEditorTheme__listItem"
-              dir="ltr"
-              value="1">
+            <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
               <span data-lexical-text="true">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                 venenatis risus ac cursus efficitur. Cras efficitur magna odio,
@@ -127,9 +124,7 @@ test.describe.parallel('Nested List', () => {
               </span>
             </li>
           </ul>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">ipsum dolor</span>
           </p>
         `,
@@ -189,10 +184,7 @@ test.describe.parallel('Nested List', () => {
             class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"
             value="1">
             <ul class="PlaygroundEditorTheme__ul">
-              <li
-                class="PlaygroundEditorTheme__listItem"
-                dir="ltr"
-                value="1">
+              <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
                 <span
                   class="editor-image"
                   contenteditable="false"
@@ -223,10 +215,7 @@ test.describe.parallel('Nested List', () => {
             class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"
             value="1">
             <ul class="PlaygroundEditorTheme__ul">
-              <li
-                class="PlaygroundEditorTheme__listItem"
-                dir="ltr"
-                value="1">
+              <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
                 <span data-lexical-text="true">x</span>
               </li>
             </ul>
@@ -307,9 +296,7 @@ test.describe.parallel('Nested List', () => {
             </strong>
           </li>
         </ul>
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <strong
             class="PlaygroundEditorTheme__textBold"
             style="${expectedTextStyle}"
@@ -474,9 +461,7 @@ test.describe.parallel('Nested List', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">Hello</span>
           </p>
         `,
@@ -494,29 +479,19 @@ test.describe.parallel('Nested List', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">Hello</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">from</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">the</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">other</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">side</span>
           </p>
         `,
@@ -536,29 +511,19 @@ test.describe.parallel('Nested List', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">Hello</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">from</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">the</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">other</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">side</span>
           </p>
         `,
@@ -649,20 +614,14 @@ test.describe.parallel('Nested List', () => {
       page,
       html`
         <ul class="PlaygroundEditorTheme__ul">
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="1">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
             <span data-lexical-text="true">Hello</span>
           </li>
           <li
             class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"
             value="2">
             <ul class="PlaygroundEditorTheme__ul">
-              <li
-                class="PlaygroundEditorTheme__listItem"
-                dir="ltr"
-                value="1">
+              <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
                 <span data-lexical-text="true">from</span>
               </li>
               <li
@@ -677,18 +636,12 @@ test.describe.parallel('Nested List', () => {
                   </li>
                 </ul>
               </li>
-              <li
-                class="PlaygroundEditorTheme__listItem"
-                dir="ltr"
-                value="2">
+              <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="2">
                 <span data-lexical-text="true">other</span>
               </li>
             </ul>
           </li>
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="2">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="2">
             <span data-lexical-text="true">side</span>
           </li>
         </ul>
@@ -705,20 +658,14 @@ test.describe.parallel('Nested List', () => {
       page,
       html`
         <ul class="PlaygroundEditorTheme__ul">
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="1">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
             <span data-lexical-text="true">Hello</span>
           </li>
           <li
             class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"
             value="2">
             <ul class="PlaygroundEditorTheme__ul">
-              <li
-                class="PlaygroundEditorTheme__listItem"
-                dir="ltr"
-                value="1">
+              <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
                 <span data-lexical-text="true">from</span>
               </li>
               <li
@@ -733,18 +680,12 @@ test.describe.parallel('Nested List', () => {
                   </li>
                 </ul>
               </li>
-              <li
-                class="PlaygroundEditorTheme__listItem"
-                dir="ltr"
-                value="2">
+              <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="2">
                 <span data-lexical-text="true">other</span>
               </li>
             </ul>
           </li>
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="2">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="2">
             <span data-lexical-text="true">side</span>
           </li>
         </ul>
@@ -758,20 +699,14 @@ test.describe.parallel('Nested List', () => {
       page,
       html`
         <ol class="PlaygroundEditorTheme__ol1">
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="1">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
             <span data-lexical-text="true">Hello</span>
           </li>
           <li
             class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"
             value="2">
             <ol class="PlaygroundEditorTheme__ol2">
-              <li
-                class="PlaygroundEditorTheme__listItem"
-                dir="ltr"
-                value="1">
+              <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
                 <span data-lexical-text="true">from</span>
               </li>
               <li
@@ -786,18 +721,12 @@ test.describe.parallel('Nested List', () => {
                   </li>
                 </ol>
               </li>
-              <li
-                class="PlaygroundEditorTheme__listItem"
-                dir="ltr"
-                value="2">
+              <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="2">
                 <span data-lexical-text="true">other</span>
               </li>
             </ol>
           </li>
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="2">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="2">
             <span data-lexical-text="true">side</span>
           </li>
         </ol>
@@ -812,20 +741,14 @@ test.describe.parallel('Nested List', () => {
       page,
       html`
         <ol class="PlaygroundEditorTheme__ol1">
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="1">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
             <span data-lexical-text="true">Hello</span>
           </li>
           <li
             class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"
             value="2">
             <ol class="PlaygroundEditorTheme__ol2">
-              <li
-                class="PlaygroundEditorTheme__listItem"
-                dir="ltr"
-                value="1">
+              <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
                 <span data-lexical-text="true">from</span>
               </li>
               <li
@@ -840,18 +763,12 @@ test.describe.parallel('Nested List', () => {
                   </li>
                 </ol>
               </li>
-              <li
-                class="PlaygroundEditorTheme__listItem"
-                dir="ltr"
-                value="2">
+              <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="2">
                 <span data-lexical-text="true">other</span>
               </li>
             </ol>
           </li>
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="2">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="2">
             <span data-lexical-text="true">side</span>
           </li>
         </ol>
@@ -1017,9 +934,7 @@ test.describe.parallel('Nested List', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">One two three</span>
           </p>
         `,
@@ -1034,9 +949,7 @@ test.describe.parallel('Nested List', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">One</span>
             <a
               class="PlaygroundEditorTheme__link"
@@ -1065,9 +978,7 @@ test.describe.parallel('Nested List', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">One</span>
             <a
               class="PlaygroundEditorTheme__link"
@@ -1130,31 +1041,21 @@ test.describe.parallel('Nested List', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">Hello</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">from</span>
           </p>
           <p class="PlaygroundEditorTheme__paragraph"><br /></p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">the</span>
           </p>
           <p class="PlaygroundEditorTheme__paragraph"><br /></p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">other</span>
           </p>
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">side</span>
           </p>
         `,
@@ -1441,35 +1342,23 @@ test.describe.parallel('Nested List', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <span data-lexical-text="true">Hello</span>
         </p>
         <ul class="PlaygroundEditorTheme__ul">
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="1">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
             <span data-lexical-text="true">from</span>
           </li>
         </ul>
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <span data-lexical-text="true">the</span>
         </p>
         <ul class="PlaygroundEditorTheme__ul">
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="1">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
             <span data-lexical-text="true">other</span>
           </li>
         </ul>
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <span data-lexical-text="true">side</span>
         </p>
       `,
@@ -1788,16 +1677,10 @@ test.describe.parallel('Nested List', () => {
       page,
       html`
         <ul class="PlaygroundEditorTheme__ul">
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="1">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
             <span data-lexical-text="true">a</span>
           </li>
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="2">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="2">
             <span data-lexical-text="true">b</span>
           </li>
           <li
@@ -1943,16 +1826,10 @@ test.describe.parallel('Nested List', () => {
       page,
       html`
         <ul class="PlaygroundEditorTheme__ul">
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="1">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
             <span data-lexical-text="true">Hello from</span>
           </li>
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="2">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="2">
             <span data-lexical-text="true">the other side</span>
           </li>
         </ul>
@@ -1973,9 +1850,7 @@ test.describe.parallel('Nested List', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">Hello World</span>
           </p>
           <p
@@ -2015,16 +1890,11 @@ test.describe.parallel('Nested List', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">Hello World</span>
           </p>
           <ul class="PlaygroundEditorTheme__ul">
-            <li
-              class="PlaygroundEditorTheme__listItem"
-              dir="ltr"
-              value="1">
+            <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
               <span data-lexical-text="true">a</span>
             </li>
           </ul>
@@ -2034,10 +1904,7 @@ test.describe.parallel('Nested List', () => {
             <br />
           </p>
           <ul class="PlaygroundEditorTheme__ul">
-            <li
-              class="PlaygroundEditorTheme__listItem"
-              dir="ltr"
-              value="1">
+            <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
               <span data-lexical-text="true">b</span>
             </li>
           </ul>
@@ -2065,10 +1932,7 @@ test.describe.parallel('Nested List', () => {
       page,
       html`
         <ul class="PlaygroundEditorTheme__ul">
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="1">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
             <strong
               class="PlaygroundEditorTheme__textBold"
               data-lexical-text="true">
@@ -2079,10 +1943,7 @@ test.describe.parallel('Nested List', () => {
             class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__nestedListItem"
             value="2">
             <ul class="PlaygroundEditorTheme__ul">
-              <li
-                class="PlaygroundEditorTheme__listItem"
-                dir="ltr"
-                value="1">
+              <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
                 <strong
                   class="PlaygroundEditorTheme__textBold"
                   data-lexical-text="true">
@@ -2125,10 +1986,7 @@ test.describe.parallel('Nested List', () => {
       page,
       html`
         <ul class="PlaygroundEditorTheme__ul">
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="1">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
             <span data-lexical-text="true">Hello World</span>
           </li>
         </ul>
@@ -2138,9 +1996,7 @@ test.describe.parallel('Nested List', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <span data-lexical-text="true">Hello World</span>
         </p>
       `,
@@ -2157,10 +2013,7 @@ test.describe.parallel('Nested List', () => {
       page,
       html`
         <ul class="PlaygroundEditorTheme__ul">
-          <li
-            class="PlaygroundEditorTheme__listItem"
-            dir="ltr"
-            value="1">
+          <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
             <a
               class="PlaygroundEditorTheme__link"
               dir="ltr"

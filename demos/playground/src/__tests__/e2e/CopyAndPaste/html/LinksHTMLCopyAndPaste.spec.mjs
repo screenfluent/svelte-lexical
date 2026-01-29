@@ -119,9 +119,7 @@ test.describe('HTML Links CopyAndPaste', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <span data-lexical-text="true">beforetext</span>
           <a
             class="PlaygroundEditorTheme__link"
@@ -155,9 +153,7 @@ test.describe('HTML Links CopyAndPaste', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <span data-lexical-text="true">text</span>
           <a
             class="PlaygroundEditorTheme__link"
@@ -247,9 +243,7 @@ test.describe('HTML Links CopyAndPaste', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <span data-lexical-text="true">A</span>
           <a
             class="PlaygroundEditorTheme__link"
@@ -282,9 +276,7 @@ test.describe('HTML Links CopyAndPaste', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <a
             class="PlaygroundEditorTheme__link"
             dir="ltr"
@@ -323,9 +315,7 @@ test.describe('HTML Links CopyAndPaste', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <a
             class="PlaygroundEditorTheme__link"
             dir="ltr"
@@ -369,9 +359,7 @@ test.describe('HTML Links CopyAndPaste', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <a
             class="PlaygroundEditorTheme__link"
             dir="ltr"
@@ -416,9 +404,7 @@ test.describe('HTML Links CopyAndPaste', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <a
             class="PlaygroundEditorTheme__link"
             dir="ltr"
@@ -428,9 +414,7 @@ test.describe('HTML Links CopyAndPaste', () => {
           </a>
           <span data-lexical-text="true">para 1</span>
         </p>
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <span data-lexical-text="true">para 2</span>
           <a
             class="PlaygroundEditorTheme__link"

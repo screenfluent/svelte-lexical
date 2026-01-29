@@ -49,9 +49,7 @@ test.describe('Clear All Formatting', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
           <span data-lexical-text="true">Hello World Test</span>
         </p>
       `,
@@ -101,9 +99,7 @@ test.describe('Clear All Formatting', () => {
       await assertHTML(
         page,
         html`
-          <blockquote
-            class="PlaygroundEditorTheme__quote"
-            dir="ltr">
+          <blockquote class="PlaygroundEditorTheme__quote" dir="ltr">
             <span data-lexical-text="true">Testing for quote node</span>
           </blockquote>
         `,
@@ -128,9 +124,7 @@ test.describe('Clear All Formatting', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span
               class="PlaygroundEditorTheme__hashtag"
               data-lexical-text="true">
@@ -149,9 +143,7 @@ test.describe('Clear All Formatting', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span data-lexical-text="true">@Luke</span>
           </p>
         `,
@@ -181,9 +173,7 @@ test.describe('Clear All Formatting', () => {
       await assertHTML(
         page,
         html`
-          <p
-            class="PlaygroundEditorTheme__paragraph"
-            dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
             <span
               class="mention"
               spellcheck="false"
@@ -213,10 +203,7 @@ test.describe('Clear All Formatting', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr"
-          style="">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr" style="">
           <span data-lexical-text="true">Hello World Test</span>
         </p>
       `,
@@ -237,10 +224,7 @@ test.describe('Clear All Formatting', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr"
-          style="">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr" style="">
           <span data-lexical-text="true">Hello World Test</span>
         </p>
       `,
@@ -261,10 +245,7 @@ test.describe('Clear All Formatting', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr"
-          style="">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr" style="">
           <span data-lexical-text="true">Hello World Test</span>
         </p>
       `,
@@ -291,10 +272,7 @@ test.describe('Clear All Formatting', () => {
     await assertHTML(
       page,
       html`
-        <p
-          class="PlaygroundEditorTheme__paragraph"
-          dir="ltr"
-          style="">
+        <p class="PlaygroundEditorTheme__paragraph" dir="ltr" style="">
           <span data-lexical-text="true">Hello World Test</span>
         </p>
       `,
