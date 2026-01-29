@@ -33,7 +33,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Hello Lexical</span>
         </p>
       `,
@@ -53,7 +53,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Front updated</span>
         </p>
       `,
@@ -79,7 +79,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <h1 class="PlaygroundEditorTheme__h1" dir="ltr">
+        <h1 class="PlaygroundEditorTheme__h1" dir="auto">
           <span data-lexical-text="true">Hello</span>
         </h1>
       `,
@@ -96,8 +96,8 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph"><br /></p>
-        <h1 class="PlaygroundEditorTheme__h1" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
+        <h1 class="PlaygroundEditorTheme__h1" dir="auto">
           <span data-lexical-text="true">Hello</span>
         </h1>
       `,
@@ -125,10 +125,10 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p dir="ltr">
+        <p dir="auto">
           <span data-lexical-text="true">Hello</span>
         </p>
-        <p dir="ltr">
+        <p dir="auto">
           <strong data-lexical-text="true">world</strong>
         </p>
       `,
@@ -158,7 +158,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Foo</span>
         </p>
       `,
@@ -186,7 +186,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true"></span>
         </p>
       `,
@@ -232,10 +232,10 @@ test.describe('TextEntry', () => {
         await assertHTML(
           page,
           html`
-            <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+            <p class="PlaygroundEditorTheme__paragraph" dir="auto">
               <span data-lexical-text="true">Hello World.</span>
             </p>
-            <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+            <p class="PlaygroundEditorTheme__paragraph" dir="auto">
               <span data-lexical-text="true">This is another paragraph.</span>
               <span class="emoji happysmile" data-lexical-text="true">
                 <span class="emoji-inner">🙂</span>
@@ -253,7 +253,7 @@ test.describe('TextEntry', () => {
         await assertHTML(
           page,
           html`
-            <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+            <p class="PlaygroundEditorTheme__paragraph" dir="auto">
               <span data-lexical-text="true">Hello World.</span>
               <br />
               <span data-lexical-text="true">This is another paragraph.</span>
@@ -288,7 +288,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Delete some of these characte</span>
         </p>
       `,
@@ -311,7 +311,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Hello foobar.</span>
         </p>
       `,
@@ -340,7 +340,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Hello lolbar.</span>
         </p>
       `,
@@ -382,7 +382,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Delete some of these</span>
         </p>
       `,
@@ -408,10 +408,10 @@ test.describe('TextEntry', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true"></span>
           </p>
-          <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
         `,
       );
       await assertSelection(page, {
@@ -424,7 +424,7 @@ test.describe('TextEntry', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true"></span>
             <br />
             <br />
@@ -447,7 +447,7 @@ test.describe('TextEntry', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
         `,
       );
       await assertSelection(page, {
@@ -460,7 +460,7 @@ test.describe('TextEntry', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true"></span>
             <br />
             <br />
@@ -489,7 +489,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <br />
           <br />
           <br />
@@ -522,8 +522,8 @@ test.describe('TextEntry', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph"><br /></p>
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <br />
             <br />
             <br />
@@ -541,7 +541,7 @@ test.describe('TextEntry', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <br />
             <br />
             <br />
@@ -568,7 +568,7 @@ test.describe('TextEntry', () => {
           <p class="PlaygroundEditorTheme__paragraph" dir="rtl">
             <span data-lexical-text="true">هَ</span>
           </p>
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <br />
             <br />
             <br />
@@ -614,8 +614,8 @@ test.describe('TextEntry', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph"><br /></p>
-          <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
         `,
       );
       await page.pause();
@@ -629,7 +629,7 @@ test.describe('TextEntry', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <br />
             <br />
           </p>
@@ -681,7 +681,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
       `,
     );
     await assertSelection(page, {
@@ -698,7 +698,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <br />
           <br />
         </p>
@@ -715,7 +715,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <br />
           <br />
         </p>
@@ -733,7 +733,7 @@ test.describe('TextEntry', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
       `,
     );
     await assertSelection(page, {

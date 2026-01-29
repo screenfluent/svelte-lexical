@@ -31,7 +31,7 @@ test.describe('BlockWithAlignableContents', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Hello world</span>
         </p>
       `,
@@ -40,7 +40,7 @@ test.describe('BlockWithAlignableContents', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Hello world</span>
         </p>
         <div contenteditable="false" data-lexical-decorator="true">
@@ -55,7 +55,7 @@ test.describe('BlockWithAlignableContents', () => {
               width="560"></iframe>
           </div>
         </div>
-        <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
       `,
     );
   });
@@ -71,7 +71,7 @@ test.describe('BlockWithAlignableContents', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Hello world</span>
         </p>
         <div contenteditable="false" data-lexical-decorator="true">
@@ -86,7 +86,7 @@ test.describe('BlockWithAlignableContents', () => {
               width="560"></iframe>
           </div>
         </div>
-        <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
       `,
     );
     await selectAll(page);
@@ -96,7 +96,7 @@ test.describe('BlockWithAlignableContents', () => {
       html`
         <p
           class="PlaygroundEditorTheme__paragraph"
-          dir="ltr"
+          dir="auto"
           style="text-align: center">
           <span data-lexical-text="true">Hello world</span>
         </p>

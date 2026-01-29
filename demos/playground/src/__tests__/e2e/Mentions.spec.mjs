@@ -48,7 +48,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">@Luke</span>
         </p>
       `,
@@ -58,7 +58,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span
             class="mention"
             spellcheck="false"
@@ -123,7 +123,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">@Luke</span>
         </p>
       `,
@@ -133,7 +133,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span
             class="mention"
             spellcheck="false"
@@ -165,7 +165,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span
             class="mention"
             spellcheck="false"
@@ -187,7 +187,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
       `,
     );
     await assertSelection(page, {
@@ -218,7 +218,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">@Luke</span>
         </p>
       `,
@@ -228,7 +228,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span
             class="mention"
             spellcheck="false"
@@ -261,7 +261,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span
             class="mention"
             spellcheck="false"
@@ -294,7 +294,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">@Luke</span>
         </p>
       `,
@@ -304,7 +304,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span
             class="mention"
             spellcheck="false"
@@ -337,7 +337,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span
             class="mention"
             spellcheck="false"
@@ -370,7 +370,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">@Luke</span>
         </p>
       `,
@@ -380,7 +380,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span
             class="mention"
             spellcheck="false"
@@ -404,7 +404,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span
             class="mention"
             spellcheck="false"
@@ -426,7 +426,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
       `,
     );
     await assertSelection(page, {
@@ -445,7 +445,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">abc def</span>
         </p>
       `,
@@ -467,7 +467,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">abc @Luke def</span>
         </p>
       `,
@@ -477,7 +477,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">abc</span>
           <span
             class="mention"
@@ -501,7 +501,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">abc</span>
           <span
             class="mention"
@@ -582,7 +582,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span
             class="mention"
             spellcheck="false"
@@ -639,7 +639,7 @@ test.describe('Mentions', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">Skywalker</span>
             <span
               class="mention"
@@ -671,7 +671,7 @@ test.describe('Mentions', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">Skywalker</span>
             <span
               class="mention"
@@ -712,7 +712,7 @@ test.describe('Mentions', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span
               class="mention"
               spellcheck="false"
@@ -743,7 +743,7 @@ test.describe('Mentions', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true"></span>
             <span
               class="mention"
@@ -784,7 +784,7 @@ test.describe('Mentions', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">Skywalker</span>
             <span
               class="mention"
@@ -808,7 +808,7 @@ test.describe('Mentions', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">Skywalker</span>
             <span
               class="mention"
@@ -845,7 +845,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
       `,
     );
     await assertSelection(page, {
@@ -881,7 +881,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span
             class="mention"
             spellcheck="false"
@@ -925,7 +925,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">bar</span>
         </p>
       `,
@@ -970,7 +970,7 @@ test.describe('Mentions', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span
             class="mention"
             spellcheck="false"

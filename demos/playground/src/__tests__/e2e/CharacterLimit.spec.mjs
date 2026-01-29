@@ -29,7 +29,7 @@ function testSuite(charset) {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">12345</span>
         </p>
       `,
@@ -39,7 +39,7 @@ function testSuite(charset) {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">12345</span>
           <span class="PlaygroundEditorTheme__characterLimit">
             <span data-lexical-text="true">6789</span>
@@ -60,7 +60,7 @@ function testSuite(charset) {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">01234</span>
           <span class="PlaygroundEditorTheme__characterLimit">
             <span data-lexical-text="true">5</span>
@@ -87,16 +87,16 @@ function testSuite(charset) {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">1234</span>
-          <span class="PlaygroundEditorTheme__characterLimit" dir="ltr">
+          <span class="PlaygroundEditorTheme__characterLimit" dir="auto">
             <span class="emoji happysmile" data-lexical-text="true">
               <span class="emoji-inner">🙂</span>
             </span>
             <span data-lexical-text="true">56</span>
             <a
               class="PlaygroundEditorTheme__link"
-              dir="ltr"
+              dir="auto"
               href="https://www.example.com">
               <span data-lexical-text="true">www.example.com</span>
             </a>
@@ -109,9 +109,9 @@ function testSuite(charset) {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">1234</span>
-          <span class="PlaygroundEditorTheme__characterLimit" dir="ltr">
+          <span class="PlaygroundEditorTheme__characterLimit" dir="auto">
             <span class="emoji happysmile" data-lexical-text="true">
               <span class="emoji-inner">🙂</span>
             </span>
@@ -135,9 +135,9 @@ function testSuite(charset) {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">1234</span>
-          <span class="PlaygroundEditorTheme__characterLimit" dir="ltr">
+          <span class="PlaygroundEditorTheme__characterLimit" dir="auto">
             <span class="emoji happysmile" data-lexical-text="true">
               <span class="emoji-inner">🙂</span>
             </span>
@@ -151,7 +151,7 @@ function testSuite(charset) {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">1234</span>
         </p>
       `,
@@ -173,13 +173,13 @@ function testSuite(charset) {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">12345</span>
             <span class="PlaygroundEditorTheme__characterLimit">
               <span data-lexical-text="true">6</span>
             </span>
           </p>
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span class="PlaygroundEditorTheme__characterLimit">
               <span data-lexical-text="true">7</span>
             </span>
@@ -190,7 +190,7 @@ function testSuite(charset) {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">12345</span>
             <span class="PlaygroundEditorTheme__characterLimit">
               <span data-lexical-text="true">6</span>
@@ -206,7 +206,7 @@ function testSuite(charset) {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">12345</span>
         </p>
       `,
@@ -231,10 +231,10 @@ function testSuite(charset) {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">23456</span>
           </p>
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span class="PlaygroundEditorTheme__characterLimit">
               <span data-lexical-text="true">7</span>
             </span>
@@ -245,7 +245,7 @@ function testSuite(charset) {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">23456</span>
             <span class="PlaygroundEditorTheme__characterLimit">
               <br />
@@ -261,10 +261,10 @@ function testSuite(charset) {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">3456</span>
           </p>
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">7</span>
           </p>
         `,
@@ -273,7 +273,7 @@ function testSuite(charset) {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">3456</span>
             <br />
             <span class="PlaygroundEditorTheme__characterLimit">
@@ -301,7 +301,7 @@ function testSuite(charset) {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">234</span>
             <span class="emoji happysmile" data-lexical-text="true">
               <span class="emoji-inner">🙂</span>
@@ -316,9 +316,9 @@ function testSuite(charset) {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">234</span>
-            <span class="PlaygroundEditorTheme__characterLimit" dir="ltr">
+            <span class="PlaygroundEditorTheme__characterLimit" dir="auto">
               <span class="emoji happysmile" data-lexical-text="true">
                 <span class="emoji-inner">🙂</span>
               </span>
@@ -365,10 +365,10 @@ function testSuite(charset) {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">12345</span>
         </p>
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span class="PlaygroundEditorTheme__characterLimit">
             <span data-lexical-text="true">6</span>
           </span>
@@ -381,7 +381,7 @@ function testSuite(charset) {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">12345</span>
           <span class="PlaygroundEditorTheme__characterLimit">
             <span data-lexical-text="true">6</span>
@@ -401,9 +401,9 @@ function testSuite(charset) {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">ààààà</span>
-            <span class="PlaygroundEditorTheme__characterLimit" dir="ltr">
+            <span class="PlaygroundEditorTheme__characterLimit" dir="auto">
               <span data-lexical-text="true">à</span>
             </span>
           </p>
@@ -413,9 +413,9 @@ function testSuite(charset) {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">àà</span>
-            <span class="PlaygroundEditorTheme__characterLimit" dir="ltr">
+            <span class="PlaygroundEditorTheme__characterLimit" dir="auto">
               <span data-lexical-text="true">àààà</span>
             </span>
           </p>
@@ -432,8 +432,8 @@ function testSuite(charset) {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
-          <span class="PlaygroundEditorTheme__characterLimit" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
+          <span class="PlaygroundEditorTheme__characterLimit" dir="auto">
             <span data-lexical-text="true">👨‍👩‍👦‍👦</span>
           </span>
         </p>

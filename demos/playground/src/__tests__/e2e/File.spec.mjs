@@ -43,7 +43,7 @@ test.describe('File', () => {
     await waitForSelector(page, '.editor-image img');
 
     const expectedHtml = html`
-      <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+      <p class="PlaygroundEditorTheme__paragraph" dir="auto">
         <strong
           class="PlaygroundEditorTheme__textBold"
           data-lexical-text="true">
@@ -52,10 +52,10 @@ test.describe('File', () => {
         <span data-lexical-text="true">World</span>
       </p>
       <ol class="PlaygroundEditorTheme__ol1">
-        <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="1">
+        <li class="PlaygroundEditorTheme__listItem" dir="auto" value="1">
           <span data-lexical-text="true">one</span>
         </li>
-        <li class="PlaygroundEditorTheme__listItem" dir="ltr" value="2">
+        <li class="PlaygroundEditorTheme__listItem" dir="auto" value="2">
           <span data-lexical-text="true">two</span>
         </li>
         <li class="PlaygroundEditorTheme__listItem" value="3">
@@ -90,7 +90,7 @@ test.describe('File', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
       `,
     );
 

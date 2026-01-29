@@ -52,13 +52,13 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">hello</span>
         </p>
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">hello world again</span>
         </p>
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">world</span>
         </p>
       `,
@@ -75,13 +75,13 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">hello</span>
         </p>
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <br />
         </p>
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">world</span>
         </p>
       `,
@@ -102,13 +102,13 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">hello</span>
         </p>
         <ul class="PlaygroundEditorTheme__ul PlaygroundEditorTheme__checklist">
           <li
             class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__listItemUnchecked"
-            dir="ltr"
+            dir="auto"
             role="checkbox"
             tabindex="-1"
             value="1"
@@ -117,7 +117,7 @@ test.describe('Collaboration', () => {
           </li>
           <li
             class="PlaygroundEditorTheme__listItem PlaygroundEditorTheme__listItemUnchecked"
-            dir="ltr"
+            dir="auto"
             role="checkbox"
             tabindex="-1"
             value="2"
@@ -133,7 +133,7 @@ test.describe('Collaboration', () => {
             <br />
           </li>
         </ul>
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">world</span>
         </p>
       `,
@@ -150,13 +150,13 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">hello</span>
         </p>
-        <p class="PlaygroundEditorTheme__paragraph">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <br />
         </p>
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">world</span>
         </p>
       `,
@@ -182,10 +182,10 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">hello</span>
         </p>
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Some</span>
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -194,7 +194,7 @@ test.describe('Collaboration', () => {
           </strong>
           <span data-lexical-text="true">text</span>
         </p>
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">world</span>
         </p>
       `,
@@ -235,10 +235,10 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Line 1</span>
         </p>
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">This is a test. Word</span>
         </p>
       `,
@@ -253,10 +253,10 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Line 1</span>
         </p>
-        <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
       `,
     );
 
@@ -271,10 +271,10 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Line 1</span>
         </p>
-        <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
       `,
     );
   });
@@ -293,7 +293,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">normal</span>
         </p>
       `,
@@ -305,7 +305,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">normal</span>
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -328,7 +328,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">normal</span>
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -348,7 +348,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">normalBOLD</span>
         </p>
       `,
@@ -365,7 +365,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">normalBOLD</span>
         </p>
       `,
@@ -391,7 +391,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">normal</span>
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -415,7 +415,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">normal</span>
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -433,7 +433,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">normal boldBOLD</span>
         </p>
       `,
@@ -446,7 +446,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">normal</span>
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -473,7 +473,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">normal</span>
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -509,11 +509,11 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Check out the</span>
           <a
             class="PlaygroundEditorTheme__link"
-            dir="ltr"
+            dir="auto"
             href="https://"
             rel="noreferrer">
             <span data-lexical-text="true">website</span>
@@ -535,11 +535,11 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Check out the</span>
           <a
             class="PlaygroundEditorTheme__link"
-            dir="ltr"
+            dir="auto"
             href="https://"
             rel="noreferrer">
             <span data-lexical-text="true">website</span>
@@ -556,7 +556,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Check out the website! now</span>
         </p>
       `,
@@ -569,11 +569,11 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Check out the</span>
           <a
             class="PlaygroundEditorTheme__link"
-            dir="ltr"
+            dir="auto"
             href="https://"
             rel="noreferrer">
             <span data-lexical-text="true">website</span>
@@ -594,11 +594,11 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">Check out the</span>
           <a
             class="PlaygroundEditorTheme__link"
-            dir="ltr"
+            dir="auto"
             href="https://"
             rel="noreferrer">
             <span data-lexical-text="true">website</span>
@@ -629,7 +629,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">A</span>
           <strong
             class="PlaygroundEditorTheme__textBold"
@@ -654,7 +654,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">C</span>
         </p>
       `,
@@ -667,7 +667,7 @@ test.describe('Collaboration', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">AC</span>
         </p>
       `,

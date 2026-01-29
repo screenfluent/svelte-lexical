@@ -46,7 +46,7 @@ test.describe('MaxLength', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">lorem ipsum dolor sit amet, co</span>
         </p>
       `,
@@ -63,7 +63,7 @@ test.describe('MaxLength', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">lorem ipsum dolor sit amet, co</span>
         </p>
       `,
@@ -80,7 +80,7 @@ test.describe('MaxLength', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">lorem ipsum dolor sit amet, c</span>
         </p>
       `,
@@ -91,7 +91,7 @@ test.describe('MaxLength', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">lorem ipsum dolor sit amet, c</span>
         </p>
       `,
@@ -103,7 +103,7 @@ test.describe('MaxLength', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">lorem ipsum dolor sit amet, 💏</span>
         </p>
       `,
@@ -115,7 +115,7 @@ test.describe('MaxLength', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">👨‍💻👨‍💻👨‍💻👨‍💻👨‍💻👨‍💻</span>
         </p>
       `,
@@ -132,7 +132,7 @@ test.describe('MaxLength', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">lorem ipsum dolor sit amet, co</span>
         </p>
       `,
@@ -149,7 +149,7 @@ test.describe('MaxLength', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">lorem ipsum dolor sit amet, co</span>
         </p>
       `,

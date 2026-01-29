@@ -38,7 +38,7 @@ test.describe('Autocomplete', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">Sort by alpha</span>
             <span
               class="PlaygroundEditorTheme__autocomplete"
@@ -49,7 +49,7 @@ test.describe('Autocomplete', () => {
           </p>
         `,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">Sort by alpha</span>
             <span data-lexical-text="true"></span>
           </p>
@@ -60,7 +60,7 @@ test.describe('Autocomplete', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">Sort by alpha</span>
             <span style="font-size: 15px" data-lexical-text="true">
               betical order:
@@ -88,7 +88,7 @@ test.describe('Autocomplete', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <strong
               class="PlaygroundEditorTheme__textUnderlineStrikethrough PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic"
               style="font-size: 17px;"
@@ -104,7 +104,7 @@ test.describe('Autocomplete', () => {
           </p>
         `,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <strong
               class="PlaygroundEditorTheme__textUnderlineStrikethrough PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic"
               style="font-size: 17px;"
@@ -129,7 +129,7 @@ test.describe('Autocomplete', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <strong
               class="PlaygroundEditorTheme__textUnderlineStrikethrough PlaygroundEditorTheme__textBold PlaygroundEditorTheme__textItalic"
               style="font-size: 17px;"

@@ -36,10 +36,10 @@ test.describe('Regression test #399', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">foo</span>
           </p>
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">bar</span>
           </p>
         `,
@@ -54,7 +54,7 @@ test.describe('Regression test #399', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">foo</span>
             <br />
             <span data-lexical-text="true">bar</span>
@@ -75,10 +75,10 @@ test.describe('Regression test #399', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">foo</span>
           </p>
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <br />
             <span data-lexical-text="true">bar</span>
           </p>
@@ -94,7 +94,7 @@ test.describe('Regression test #399', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span data-lexical-text="true">foo</span>
             <br />
             <br />

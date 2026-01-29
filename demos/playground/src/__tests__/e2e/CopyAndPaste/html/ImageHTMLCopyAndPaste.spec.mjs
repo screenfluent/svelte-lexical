@@ -39,7 +39,7 @@ test.describe('HTML Image CopyAndPaste', () => {
     await assertHTML(
       page,
       html`
-        <p class="PlaygroundEditorTheme__paragraph" dir="ltr">
+        <p class="PlaygroundEditorTheme__paragraph" dir="auto">
           <span data-lexical-text="true">An</span>
           <span
             class="editor-image"
@@ -77,7 +77,7 @@ test.describe('HTML Image CopyAndPaste', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph">
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto">
             <span
               class="editor-image"
               contenteditable="false"
@@ -111,7 +111,7 @@ test.describe('HTML Image CopyAndPaste', () => {
       await assertHTML(
         page,
         html`
-          <p class="PlaygroundEditorTheme__paragraph"><br /></p>
+          <p class="PlaygroundEditorTheme__paragraph" dir="auto"><br /></p>
         `,
       );
     },
